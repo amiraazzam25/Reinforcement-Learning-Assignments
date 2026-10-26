@@ -54,3 +54,14 @@ With random seed 42, the reference run recorded an average episode reward of **4
 The notebook demonstrates the eight tasks: custom environment; states/actions/transitions/rewards; zero-initialized Q-table; epsilon-greedy Q-learning; 500 training episodes; final Q-table and learned policy; a numerical Bellman update by hand; and a cumulative reward chart with a discussion of performance.
 
 This is a simplified deterministic model, not a physical thermostat.
+
+## Team Members
+
+This project was developed collaboratively as part of our Reinforcement Learning Assignment 1.
+
+**Team Members:**
+- Amira Madgy
+- Salma Salah
+- Zeinab Mahmoud
+
+We worked together on implementing the Q-Learning algorithm, training the agent, and analyzing the results.
