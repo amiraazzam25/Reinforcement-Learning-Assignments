@@ -55,6 +55,44 @@ The notebook demonstrates the eight tasks: custom environment; states/actions/tr
 
 This is a simplified deterministic model, not a physical thermostat.
 
+
+## Interactive Streamlit GUI
+
+An interactive visualization of the Smart Room Temperature
+Control project using Q-Learning.
+
+### Features
+- Live room temperature simulation
+- Heater ON/OFF control
+- Q-Learning training with epsilon decay
+- Live Q-table visualization
+- Reward graphs
+- Greedy policy evaluation
+
+### Run the GUI
+
+Install the required libraries:
+
+    python -m pip install -r requirements.txt
+
+Launch the application:
+
+    python -m streamlit run app.py
+
+Open http://localhost:8501 in your browser.
+
+### Training Configuration
+- Episodes: 500
+- Steps per episode: 100
+- Learning rate (alpha): 0.1
+- Discount factor (gamma): 0.9
+- Initial epsilon: 1.0
+- Epsilon decay: 0.995
+- Minimum epsilon: 0.01
+- Random seed: 42
+
+The GUI uses the Python Q-Learning engine in heater_rl.py.
+
 ## Team Members
 
 This project was developed collaboratively as part of our Reinforcement Learning Assignment 1.
